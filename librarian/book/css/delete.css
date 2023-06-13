@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+}
+.nav-list{
+    margin-right: 20px;
+    color:white;
+}
+#main{
+    display: flex; justify-content: center; align-items: center; height: 100vh;
+}
+#form{
+    background-color:white; padding: 40px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    width:300px;
+}
+#delete{text-align: center;}
+input[type="text"]{
+    width: 100%;
+     padding: 12px 20px;
+     margin: 3px 0 0px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+   }
+   select option{
+    width: 100%;
+     padding: 12px 20px;
+     margin: 3px 0 0px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+   }
+   button{
+    background-color: blue; color: white; padding: 10px 5px;
+    border: 0em;
+    cursor: pointer;
+}
+#submit{
+    background-color: blue; color: white; padding: 10px 20px;
+}
+
+
+.containers{margin-top: 20px;}
+
+  .containers{margin-top: 20px;}
+  #sucess{
+    border: 1px green solid;
+    color:#4CAF50;
+    padding: 5px 10px;
+  }
+  #error{
+    border: 1px red solid;
+    color:#f51036;
+    padding: 5px 10px;
+  }

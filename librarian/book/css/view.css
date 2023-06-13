@@ -1,0 +1,82 @@
+table {
+    width:100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: lightgray;
+  }
+
+  nav{
+    display: flex;
+}
+.nav-list{
+    margin-right: 20px;
+    color:white;
+}
+#main{
+    justify-content: center; 
+    align-items: center; 
+     padding-left: 25px;
+     padding-right: 25px;
+    padding-top: 100px;
+      height: 100% ;
+    width:100%
+}
+/*
+#form{
+    background-color:white; padding: 40px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    width:300px;
+}
+*/
+#view{text-align: center;}
+
+.containers{margin-top: 20px;}
+/*
+input[type="text"] {
+    width: 100%;
+     padding: 12px 20px;
+     margin: 3px 0 0px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+   }
+   button{
+    background-color: blue; color: white; padding: 10px 5px;
+    border: 0em;
+    cursor: pointer;
+}
+#submit{
+    background-color: blue; color: white; padding: 10px 20px;
+}
+*/
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+.view_btn{
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #14188a;
+  color: white;
+  border-radius: 3px;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+td {
+    position: relative;
+  }
+
+  

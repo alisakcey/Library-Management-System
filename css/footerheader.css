@@ -1,0 +1,33 @@
+fotter{
+    text-align: center;
+    padding: 8px;
+    background-color: blue ;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+   width: 100%;
+  }
+
+ .header{
+    text-align: left;
+    padding: 15px;
+    background-color:blue ;
+    color: white;
+    position:sticky;
+    top: 0;
+   width: 100%;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom:0;
+  }
+
+  a{
+	color:blue;
+	text-decoration: none;
+}
+a:hover{
+	color:#0615b8;
+}
+#logout{
+  margin-right: 20px;
+}

@@ -1,0 +1,61 @@
+#allTheThings {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 5em auto;
+    font-size: 1.3rem;
+    color: #010b0e;
+    display: block;
+  }
+
+  a{
+	color:green;
+	text-decoration: none;
+}
+
+#member{
+	display: inline-block;
+}
+#verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid green;
+}
+
+#librarian-link{
+	margin-left: 20px;
+}
+
+#member, #librarian
+{
+	transition: all .2s ease-in-out;
+}
+
+#member:hover, #librarian:hover
+{
+	transform: scale(1.1);
+}
+h1{
+    text-align: center;
+}
+fotter{
+    text-align: center;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+   width: 100%;
+  }
+
+ .header{
+    text-align: left;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    position:sticky;
+    top: 0;
+   width: 100%;
+   font-size: 20px;
+   font-weight: bold;
+  }

@@ -1,0 +1,45 @@
+#title{
+  text-align: center; padding: 20px;
+}
+.dash{
+ display: flex; flex-wrap: wrap; justify-content: center;
+}
+.container{
+  width:700px; height: 450px; margin: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.title{
+  background-color: grey; padding: 20px; text-align: center; color:white;
+}
+.list{
+  list-style: none; padding: 10px 20px 0 0px; 
+}
+.list-button{
+  background-color: blue; padding: 20px; text-align: center; color:white;
+  border-color: grey;
+  margin: 10px 2px 0 0;
+  height:20px;
+  line-height: 5px;
+  width:700px;
+}
+.list-button:hover{
+  background-color: rgb(5, 5, 143); padding: 20px; text-align: center; color:white;
+}
+#logout{
+  background-color: rgb(19, 81, 236); color: white; padding: 10px 20px; text-decoration: none;
+  border-color: aliceblue;
+}
+#account{
+  margin-top: 5px; margin-right: 20px;
+}
+header{
+  background-color:blue; display: flex; justify-content: space-between; padding: 10px; color:white;
+}
+button{
+  cursor: pointer;
+}
+#logout:hover{
+  background-color:rgb(64, 14, 244);
+ cursor: pointer;
+ color:#bdbfc1
+}
